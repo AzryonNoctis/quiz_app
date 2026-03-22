@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resultado</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #14532d 0%, #052e16 40%, #020617 100%);
+      color: white;
+    }
+    .card {
+      width: min(700px, 100%);
+      padding: 34px;
+      border-radius: 28px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.14);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+      text-align: center;
+    }
+    .score {
+      font-size: clamp(3rem, 10vw, 5.5rem);
+      margin: 12px 0;
+      font-weight: 900;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      background: rgba(255,255,255,0.12);
+      padding: 12px 16px;
+      border-radius: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p>Resultado de {{ participant_name }}</p>
+    <h1>Sua pontuação</h1>
+    <div class="score">{{ score }}/{{ total_questions }}</div>
+    <a href="/">Voltar ao início</a>
+  </div>
+</body>
+</html>
