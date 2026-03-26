@@ -23,7 +23,7 @@
   {"question":"Qual desses estilos é mais calmo e introspectivo?","options":["Funk","Rock","Bossa Nova","Trap"],"correct_index":3},
   {"question":"Qual desses movimentos ajudou a popularizar o rock no Brasil nos anos 60?","options":["Samba","Jovem Guarda","Funk","MPB"],"correct_index":2},
   {"question":"Qual desses estilos é mais comum em rodas de música com amigos?","options":["Metal","Pagode","Eletrônica","Trap"],"correct_index":2},
-  {"question":"Qual dessas características melhor diferencia o Funk Carioca dos outros estilos?","options":["Uso de instrumentos clássicos","Ritmo eletrônico com batidas marcantes","Foco em violão e voz suave","Letras exclusivamente românticas"],"correct_index":2}
+  {"question":"Qual dessas características melhor diferencia o Funk Carioca dos outros estilos?","options":["Uso de instrumentos clássicos","Ritmo eletrônico com batidas marcantes","Foco em violão e voz suave","Letras exclusivamente românticas"],"correct_index":2},
   {"question":"Qual desses artistas é considerado um dos criadores da Bossa Nova junto com João Gilberto?","options":["Tom Jobim","Roberto Carlos","Raul Seixas","Zeca Pagodinho"],"correct_index":1},
   {"question":"Qual desses estilos brasileiros tem como característica forte a improvisação e batida envolvente em rodas?","options":["Rock","Samba","Trap","Funk"],"correct_index":2},
   {"question":"Qual desses artistas NÃO está ligado ao movimento da Jovem Guarda?","options":["Roberto Carlos","Erasmo Carlos","Wanderléa","Caetano Veloso"],"correct_index":4},
