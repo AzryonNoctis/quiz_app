@@ -16,7 +16,7 @@ DB_PATH = BASE_DIR / "quiz.db"
 QUESTIONS_PATH = BASE_DIR / "perguntas.json"
 SECRET_KEY = os.environ.get("SECRET_KEY", "troque-essa-chave-em-producao")
 DEV_PASSWORD = os.environ.get("DEV_PASSWORD", "0832")
-TOTAL_QUESTIONS = 30
+TOTAL_QUESTIONS = 25
 TOTAL_TIME_SECONDS = 240
 
 app = Flask(__name__)
