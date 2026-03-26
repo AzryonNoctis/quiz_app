@@ -17,7 +17,7 @@ QUESTIONS_PATH = BASE_DIR / "perguntas.json"
 SECRET_KEY = os.environ.get("SECRET_KEY", "troque-essa-chave-em-producao")
 DEV_PASSWORD = os.environ.get("DEV_PASSWORD", "0832")
 TOTAL_QUESTIONS = 25
-TOTAL_TIME_SECONDS = 150
+TOTAL_TIME_SECONDS = 180
 
 app = Flask(__name__)
 app.config.update(SECRET_KEY=SECRET_KEY)
